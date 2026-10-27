@@ -1,0 +1,19 @@
+//@import "bootstrap/scss/bootstrap";
+@import './base.css';
+
+.no-link-style {
+  text-decoration: none !important;
+  color: inherit !important;
+  font: inherit !important;
+}
+
+.no-link-style:hover,
+.no-link-style:focus,
+.no-link-style:active {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+.sync-compare-difference {
+  color: rgba(var(--bs-warning-rgb), 1);
+}
